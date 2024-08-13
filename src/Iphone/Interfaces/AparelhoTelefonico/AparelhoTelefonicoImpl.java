@@ -1,10 +1,12 @@
 package Iphone.Interfaces.AparelhoTelefonico;
 
+import Iphone.Records.IphoneRecord;
+
 public interface AparelhoTelefonicoImpl {
 
-     void makePhoneCall(String phoneNumber);
+     void makePhoneCall(String numberPhone);
 
-     void answerPhoneCall(String phoneNumber);
+     void answerPhoneCall(String  phoneCall);
 
      void startInvoice(String phoneNumber);
 
